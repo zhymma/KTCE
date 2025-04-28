@@ -8,36 +8,10 @@ This repository contains the implementation of our AAAI 2025 paper "Automated Cr
 - **Conference**: AAAI 2025
 - **Paper Link**: [https://ojs.aaai.org/index.php/AAAI/article/view/34664](https://ojs.aaai.org/index.php/AAAI/article/view/34664)
 
-## Requirements
 
-- Python 3.8+
-- PyTorch 1.8+
-- CUDA 11.0+ (for GPU support)
-- Other dependencies listed in `requirements.txt`
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone [repository_url]
-   cd [repository_name]
-   ```
 
-2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Download the data:
-   ```bash
-   # ToDo: download data from cloud storage
-   ```
 
 ## Project Structure
 
@@ -67,11 +41,20 @@ This repository contains the implementation of our AAAI 2025 paper "Automated Cr
 ├── 2_tool_creation_toolset_potimize_run_script.py  # Optimization script
 ├── 3_get_final_toolset.py   # Final toolset generation
 ├── 3_testdatset_parse.py    # Test dataset parsing
-├── run_tpot_1_tool_retriever.py  # Tool retrieval
-├── run_tpot_2_run.py        # Main execution
-├── run_tpot_3_eval.py       # Evaluation
+├── run_ktce_1_tool_retriever.py  # Tool retrieval
+├── run_ktce_2_run.py        # Main execution
+├── run_ktce_3_eval.py       # Evaluation
 └── README.md
 ```
+
+## Data Download
+
+Before running the code, you need to download the complete dataset. Please follow these steps:
+
+1. Download the complete dataset from our Google Drive: [Download Dataset](https://drive.google.com/file/d/1M6g-ywH_7tOHM_eZyUAfXcKJ2Q80CYSv/view?usp=sharing)
+2. Extract the downloaded files
+3. Replace the contents of the `data/` directory with the extracted files
+
 
 ## Usage
 
@@ -123,11 +106,11 @@ These steps:
 ### 4. Tool Usage and Evaluation
 ```bash
 # Tool retrieval
-python run_tpot_1_tool_retriever.py
+python run_ktce_1_tool_retriever.py
 # Main execution
-python run_tpot_2_run.py [test_field]
+python run_ktce_2_run.py [test_field]
 # Evaluation
-python run_tpot_3_eval.py
+python run_ktce_3_eval.py
 ```
 These steps:
 - Retrieve appropriate tools for given problems
@@ -156,7 +139,7 @@ Our approach achieves substantial accuracy improvements ranging from 6.23% to 18
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{Ma_Huang_Liu_Wang_Zhao_Li_2025, 
+@article{KTCE, 
   title={Automated Creation of Reusable and Diverse Toolsets for Enhancing LLM Reasoning}, 
   volume={39}, 
   url={https://ojs.aaai.org/index.php/AAAI/article/view/34664}, 

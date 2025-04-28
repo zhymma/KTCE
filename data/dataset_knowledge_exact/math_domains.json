@@ -1,0 +1,173 @@
+{
+    "Calculus": [
+        "Limits",
+        "Function Operations",
+        "Optimization",
+        "Infinite Series"
+    ],
+    "Algebra": [
+        "Quadratic Equations",
+        "Linear Equations",
+        "Functions",
+        "Systems of Equations",
+        "Inequalities",
+        "Polynomials",
+        "Solving Equations",
+        "Simplifying Expressions",
+        "Sequences and Series",
+        "Radicals and Root Operations",
+        "Function Operations",
+        "Ratios and Proportions",
+        "Polynomial Expansions",
+        "Absolute Value",
+        "Rational Functions",
+        "Polynomial Factoring",
+        "Exponents and Logarithms",
+        "Function Transformations",
+        "Completing the Square",
+        "Complex Numbers",
+        "Polynomial Equations",
+        "Summation",
+        "Substitution",
+        "Fractions",
+        "Variables and Expressions",
+        "Exponential Growth",
+        "Multiplication",
+        "Percentages",
+        "Divisibility"
+    ],
+    "Arithmetic": [
+        "Basic Operations",
+        "Rounding Numbers",
+        "Order of Operations",
+        "Unit Conversion",
+        "Rate Problems",
+        "Averages",
+        "Fractions",
+        "Addition",
+        "Ratios and Proportions",
+        "Division",
+        "Percentages",
+        "Multiplication",
+        "Summation",
+        "Time Calculations"
+    ],
+    "Number Theory": [
+        "Properties of Integers",
+        "Floor and Ceiling Functions",
+        "Integer Properties",
+        "Powers and Roots",
+        "Fractions and Decimals",
+        "Floor Function",
+        "Prime Numbers",
+        "Powers and Exponents",
+        "Perfect Squares",
+        "Factors and Multiples",
+        "Integers Properties",
+        "Perfect Squares and Cubes",
+        "Divisibility",
+        "Multiples",
+        "Modular Arithmetic",
+        "Factorials",
+        "Counting Digits",
+        "Division and Remainders",
+        "Greatest Common Divisor (GCD)",
+        "Factorials and Multiples",
+        "Digit Sums",
+        "Modulo Arithmetic",
+        "Base Conversion",
+        "Least Common Multiple",
+        "Integers",
+        "Units Digit",
+        "Prime Factorization",
+        "Least Common Multiple (LCM)"
+    ],
+    "Geometry": [
+        "Circles",
+        "Coordinate Geometry",
+        "Rectangles",
+        "Midpoint Formula",
+        "Distance Formula",
+        "Area Calculation",
+        "Triangles",
+        "Parabolas",
+        "Polygons",
+        "Right Triangles",
+        "Lines and Angles",
+        "Volume of Solids",
+        "Perimeter",
+        "3D Shapes",
+        "Transformations",
+        "Squares",
+        "Planes in Three Dimensions",
+        "Similar Triangles",
+        "Pythagorean Theorem",
+        "Reflections",
+        "Trapezoids",
+        "Angles",
+        "Similarity",
+        "Parallelograms",
+        "Coordinate Systems",
+        "Conic Sections",
+        "Quadrilaterals",
+        "Ellipse"
+    ],
+    "Financial Mathematics": [
+        "Compound Interest"
+    ],
+    "Sequences and Series": [
+        "Infinite Series",
+        "Geometric Sequences",
+        "Arithmetic Sequences",
+        "Sequences and Series"
+    ],
+    "Complex Numbers": [
+        "Absolute Value",
+        "Function Operations"
+    ],
+    "Combinatorics": [
+        "Factorials",
+        "Counting Problems",
+        "Binomial Coefficients",
+        "Pascal's Triangle"
+    ],
+    "Measurement": [
+        "Unit Conversion"
+    ],
+    "Statistics": [
+        "Mean and Median",
+        "Mean",
+        "Median"
+    ],
+    "Probability": [
+        "Basic Concepts",
+        "Expected Value"
+    ],
+    "Data Interpretation": [
+        "Bar Graphs"
+    ],
+    "Trigonometry": [
+        "Sine and Cosine Functions",
+        "Sine Function",
+        "Tangent Function",
+        "Cosine Function",
+        "Trigonometric Functions",
+        "Polar Coordinates"
+    ],
+    "Set Theory": [
+        "Overlapping Sets"
+    ],
+    "Number Systems": [
+        "Base Conversion"
+    ],
+    "Linear Algebra": [
+        "Matrices",
+        "Vectors",
+        "Determinants",
+        "Vectors and Parametric Equations"
+    ],
+    "Vector Algebra": [
+        "Dot Product",
+        "Cross Product"
+    ]
+}
